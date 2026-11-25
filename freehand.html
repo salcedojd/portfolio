@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ELearning</title>
+<meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300&subset=latin&display=swap" rel="stylesheet">
+<link href="DenSalcedo2025.css" rel="stylesheet">
+<link href="freehand.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.slideshow.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#SlideShow1").slideshow(
+   {
+      interval: 3000,
+      type: 'sequence',
+      effect: 'fade',
+      direction: '',
+      pagination: false,
+      fullscreen: 3,
+      effectlength: 2000
+   });
+});
+</script>
+</head>
+<body>
+<div id="SlideShow1" style="position:absolute;left:0;top:0;width:100%;height:100vh;z-index:0;">
+<img class="image" width="392" height="298" src="images/fh1-crop-u4444.jpg" alt="" title="">
+<img class="image" width="392" height="298" src="images/fh2-crop-u4418.jpg" style ="display:none;" alt="" title="">
+<img class="image" width="392" height="298" src="images/fh3-crop-u4392.jpg" style ="display:none;" alt="" title="">
+<img class="image" width="392" height="298" src="images/fh4-crop-u4314.jpg" style ="display:none;" alt="" title="">
+</div>
+<div id="container">
+</div>
+</body>
+</html>
